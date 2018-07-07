@@ -35,6 +35,8 @@ public class UnityChanController : MonoBehaviour {
 	//右ボタン押下の判定（追加）
 	private bool isRButtonDown = false;
 
+
+
 	// Use this for initialization
 	void Start () {
 		//アニメータコンポーネントを取得
@@ -51,6 +53,7 @@ public class UnityChanController : MonoBehaviour {
 
 		//シーン中のscoreTextオブジェクトを取得（追加）
 		this.scoreText = GameObject.Find("ScoreText");
+
 
 	}
 
